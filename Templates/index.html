@@ -8,27 +8,19 @@
 
 <!--    Connecting the external CSS file to the main page-->
     <link rel="stylesheet" href="../Static/Styles/main.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("nav.html");
+      });
+      </script>
 </head>
 <body>
 
 <!--Navigation bar, Blue Background -->
-<nav class="navbar navbar-expand-lg bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">CS CLUB</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        <a class="nav-link" href="Event.html">Events</a>
-        <a class="nav-link" href="#">News</a>
-        <a class="nav-link disabled">Gallery</a>
-      </div>
-    </div>
-  </div>
-</nav>
+<div id="nav-placeholder">
 
+</div>
 <div class="container bg-white center-block  rounded-1 m-10 mt-5 shadow-lg">
 
     <div class="row p-5 auto">
@@ -123,7 +115,6 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
 
 
 
