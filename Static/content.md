@@ -10,22 +10,21 @@
 
 - Encourage interest in computing fields outside the classroom.
 
- ## Semester Plans
+## Semester Plans
+
 - Events
-   - Hackathons
-   - Touring Company Facilities
-   - Hardware Kits
-   - Web Development
+  - Hackathons
+  - Touring Company Facilities
+  - Hardware Kits
+  - Web Development
 - Career Preparation
   - Company Visits
-  - Internship Breakdowns 
+  - Internship Breakdowns
   - Hands-On Resources
   - Resume Workshops
 - Informational Presentations
-   - Personal Projects
-   - Club Interest Projects
-   - Internship Experiences
-
-
+  - Personal Projects
+  - Club Interest Projects
+  - Internship Experiences
 
 https://csclub.luddy.indiana.edu/
